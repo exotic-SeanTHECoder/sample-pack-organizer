@@ -1,0 +1,34 @@
+{
+  "name": "sample-pack-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool to scan messy sample folders and automatically sort audio files into categorized folders (Kicks, Snares, 808s, Melodies, etc.) based on filenames and metadata tags. Generates an index file.",
+  "main": "src/index.js",
+  "bin": {
+    "sample-organizer": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "audio",
+    "samples",
+    "organizer",
+    "cli",
+    "music-production",
+    "metadata",
+    "sample-pack"
+  ],
+  "author": "Sean",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "music-metadata": "^10.6.0",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0"
+  }
+}

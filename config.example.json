@@ -1,0 +1,16 @@
+{
+  "categories": [
+    { "name": "Kicks", "keywords": ["kick", "bd", "bassdrum"] },
+    { "name": "Snares", "keywords": ["snare", "sd"] },
+    { "name": "Claps", "keywords": ["clap"] },
+    { "name": "Hats", "keywords": ["hat", "hihat", "hh"] },
+    { "name": "808s", "keywords": ["808"] },
+    { "name": "Bass", "keywords": ["bass", "sub"] },
+    { "name": "Percussion", "keywords": ["perc", "tom", "rim", "shaker"] },
+    { "name": "Melodies", "keywords": ["melody", "mel", "lead", "pluck", "piano"] },
+    { "name": "Loops", "keywords": ["loop"] },
+    { "name": "FX", "keywords": ["fx", "riser", "impact", "sweep"] },
+    { "name": "Vocals", "keywords": ["vocal", "vox"] },
+    { "name": "Unsorted", "keywords": [] }
+  ]
+}
